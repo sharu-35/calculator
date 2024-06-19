@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.dribbble.com/users/343382/screenshots/2577801/media/920f2248712944a6d5ba40d41de10583.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border: 2px solid;
+    
+    
+}
+.formstyle{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-wrap: nowrap;
+    padding: 20px;
+    border: 2px soild white;
+   
+}
+#button{
+    justify-content: space-between;
+    margin: 15px;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(purple, white);
+}
+#clcu{
+    justify-content: space-between;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 30px;
+  width: 220px;  
+    background-image: linear-gradient(purple, white);
+}
+#clear{
+    justify-content: space-between;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(purple, white);
+}
+h1{
+    text-align: center;
+}
+form{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 20px;
+}

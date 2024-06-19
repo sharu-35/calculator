@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>CALCULATOR</h1>
     <div class="formstyle">
       <form name="form1">
         <input type="text" id="clcu" name="answer" class="text" />
+        <br><br>
         <input
           type="button"
           name="button"
@@ -17,6 +19,8 @@
           value="clear"
           onclick="form1.answer.value = '' "
         />
+        <br><br>
+
         <input
           type="button"
           name="button"
@@ -45,6 +49,7 @@
           value="*"
           onclick="form1.answer.value += '*'"
         />
+        <br><br>
         <input
           type="button"
           name="button"
@@ -73,6 +78,7 @@
           value="-"
           onclick="form1.answer.value += '-'"
         />
+        <br><br>
         <input
           type="button"
           name="button"
@@ -101,6 +107,7 @@
           value="+"
           onclick="form1.answer.value += '+'"
         />
+        <br><br>
         <input
           type="button"
           name="button"
